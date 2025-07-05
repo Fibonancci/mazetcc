@@ -7,8 +7,6 @@ Introdução: A Jornada Acadêmica como Jogo de RPG
 
 Cada escolha, interação e desafio afeta esses atributos, moldando a trajetória do personagem e influenciando o sucesso final do TCC. De debates no Restaurante Universitário a bugs misteriosos em códigos, o jogo oferece uma narrativa dinâmica e imersiva com escolhas que geram consequências e a presença de figuras icônicas do ambiente universitário. O projeto visa demonstrar conceitos de desenvolvimento de jogos, estrutura de dados e simulação comportamental em um contexto acadêmico.
 
-Este README.md contém as instruções essenciais para a organização do projeto, compilação e execução do jogo MazeTCC. Por favor, leia atentamente para garantir a consistência no desenvolvimento.
-
 ---
 
 ## 1. Estrutura de Pastas do Projeto

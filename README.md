@@ -1,4 +1,11 @@
-# Projeto MazeTCC
+# Projeto MazeTCC - Missão TCC: Uma Jornada Acadêmica
+
+Este README.md contém as instruções essenciais para a organização do projeto, compilação e execução do jogo MazeTCC, também conhecido como "Missão TCC: Uma Jornada Acadêmica". Por favor, leia atentamente para garantir a consistência no desenvolvimento e a correta execução.
+
+Introdução: A Jornada Acadêmica como Jogo de RPG
+"Missão TCC: Uma Jornada Acadêmica" é um inovador jogo de RPG de simulação desenvolvido como Trabalho de Porgramação Estrtururada I. Ele mergulha os jogadores na rotina de um estudante universitário, transformando a saga acadêmica em uma aventura épica. Começando como um(a) "Calouro(a) Inocente", os jogadores devem gerenciar atributos como Reputação, Motivação, Sabedoria, Nota, e Estamina.
+
+Cada escolha, interação e desafio afeta esses atributos, moldando a trajetória do personagem e influenciando o sucesso final do TCC. De debates no Restaurante Universitário a bugs misteriosos em códigos, o jogo oferece uma narrativa dinâmica e imersiva com escolhas que geram consequências e a presença de figuras icônicas do ambiente universitário. O projeto visa demonstrar conceitos de desenvolvimento de jogos, estrutura de dados e simulação comportamental em um contexto acadêmico.
 
 Este README.md contém as instruções essenciais para a organização do projeto, compilação e execução do jogo MazeTCC. Por favor, leia atentamente para garantir a consistência no desenvolvimento.
 
@@ -10,7 +17,34 @@ Para manter o projeto organizado e garantir que os caminhos dos arquivos funcion
 
 **Ponto Chave:** O executável compilado (`mazeTcc_x.x.x`) deve ser gerado no diretório **raiz do projeto** (`projeto/`), ao lado da pasta `data/`. Os caminhos dos arquivos de dados (como `data/salvar.bin` ou `data/desafios/desafio1_tela.txt`) são definidos internamente no código, facilitando o gerenciamento.
 
+```text
+projeto/
+├── src/
+│   ├── mazetcc.c         // Arquivo principal (main)
+│   ├── personagem.c      
+│   ├── ranking.c
+│   ├── salvar.c
+│   ├── labirinto.c
+│   ├── desafio.c
+│   ├── constantes.h      // Arquivo de definições de constantes
+│   ├── personagem.h
+│   ├── ranking.h
+│   ├── salvar.h
+│   ├── labirinto.h
+│   ├── desafio.h
+│   └── tela_desafio.h    // Funções para telas de desafio e resultado
+├── data/
+│   ├── desafios.txt
+│   ├── ranking.txt
+│   ├── salvar.bin
+│   └── desafios/
+│       ├── desafio1_tela.txt
+│       ├── desafio2_tela.txt
+│       └── ...
+├── README.md
+└── (executável: mazeTcc_x.x.x)
 ---
+```
 
 ## 2. Instruções de Compilação
 
@@ -26,7 +60,7 @@ Para compilar o projeto, siga estes passos:
 
     * **Opção A: Compilar TODOS os arquivos `.c` no `src/` (Recomendado para versões estáveis):**
         ```bash
-        gcc src/*.c -o mazeTcc
+        gcc src/*.c -o mazeTcc_0.5
         ```
         Este comando instrui o `gcc` a compilar todos os arquivos com a extensão `.c` encontrados dentro da pasta `src/` e gerar um executável chamado `mazeTcc_0.5` no diretório atual.
 
@@ -77,11 +111,9 @@ Os caminhos para os arquivos de dados são gerenciados internamente no código:
 * **`desafios.txt`**: Contém a lista principal de todos os desafios, seus IDs, nomes dos arquivos de tela e modificadores de atributos. É carregado de `data/desafios.txt`.
     * **Formato de exemplo:**
         ```
-        id;nome_desafio;descricao_desafio;est_bf;est_df;rep_bf;rep_df;motiv_bf;motiv_df;sabe_bf;sabe_df;nota_bf;nota_df
-
-        1;A Floresta Sombria;desafio1_tela.txt;Uma floresta misteriosa que suga sua energia e desmotiva.;0;10;0;0;0;5;0;0;0;0
-        2;O Oraculo Sabio;desafio2_tela.txt;Um antigo oraculo oferece sabedoria em troca de um bom esforco.;0;0;5;0;0;0;10;0;0;0
-        3;A Feira de Reputacao;desafio3_tela.txt;Uma feira local onde voce pode ganhar ou perder reputacao rapidamente.;0;0;15;5;0;0;0;0;0;0
+        1;Debate no RU;desafio_1.txt;Lembre que são 100 Homens Adultos!;0,0,0,0,0,0,0,0,0,0;0,0,0,0,5,0,0,5,0,0;0,0,5,0,0,5,0,0,0,0;5,0,0,5,0,0,0,0,0,0
+        2;Falha no Código;desafio_2.txt;Recursão Fatal;0,0,0,0,0,0,0,0,0,0;0,5,0,0,0,0,5,0,0,0;0,5,0,0,5,0,0,0,0,0;5,0,0,0,0,5,0,5,0,0
+        3;Convite para Festa;desafio_3.txt;Fuga Pedagógica;0,0,0,0,0,0,0,0,0,0;0,5,5,0,5,0,0,5,0,0;0,5,0,5,0,5,5,0,0,0;5,0,0,5,0,0,0,0,0,0
         ```
 * **Arquivos de Tela de Desafio (`.txt` em `data/desafios/`)**: Contêm o texto detalhado que será exibido na tela para cada desafio específico. A função `exibirTelaDesafio` constrói o caminho completo `data/desafios/NOME_DO_ARQUIVO.txt`.
 * **`ranking.txt`**: Armazena os dados do ranking. As funções `salvarRanking` e `carregarRanking` esperam encontrá-lo ou criá-lo em `data/ranking.txt`.

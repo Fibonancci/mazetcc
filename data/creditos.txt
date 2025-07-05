@@ -1,0 +1,31 @@
+=========================================================
+            M A Z E   T C C :  C R É D I T O S
+=========================================================
+
+                     CRIADORES:
+                   Ageu V. de Melo
+                   Arnoldo F. de Sá
+                  Lucas B. C. Santos
+
+                       CURSO:
+                       C.Comp
+
+                     FACULDADE:
+                     UFRRJ - IM
+
+                        ANO:
+                        2025
+
+                      MATÉRIA:
+                Pogramação Estruturada
+
+		     PROFESSORA:
+                Profa. Juliana Zamith
+
+		       MAGENS:
+	   asciiart.eu/ascii-draw-studio/app
+	     asciiart.eu/animals/aardvarks
+
+=========================================================
+              OBRIGADO POR JOGAR MAZE TCC!
+=========================================================

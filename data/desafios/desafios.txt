@@ -1,0 +1,17 @@
+1;Debate no RU;desafio_1.txt;Lembre que são 100 Homens Adultos!;0,0,0,0,0,0,0,0,0,0;0,0,0,0,5,0,0,5,0,0;0,0,5,0,0,5,0,0,0,0;5,0,0,5,0,0,0,0,0,0
+2;Falha no Código;desafio_2.txt;Recursão Fatal;0,0,0,0,0,0,0,0,0,0;0,5,0,0,0,0,5,0,0,0;0,5,0,0,5,0,0,0,0,0;5,0,0,0,0,5,0,5,0,0
+3;Convite para Festa;desafio_3.txt;Fuga Pedagógica;0,0,0,0,0,0,0,0,0,0;0,5,5,0,5,0,0,5,0,0;0,5,0,5,0,5,5,0,0,0;5,0,0,5,0,0,0,0,0,0
+4;Penetra na Sala de Aula;desafio_4.txt;Um Bit de Fofura;0,0,0,0,0,0,0,0,0,0;0,0,0,0,5,0,0,5,0,0;0,0,0,5,0,5,5,0,0,0;0,0,5,0,5,0,0,5,0,0
+5;Cachorro Pidão;desafio_5.txt;O Imposto do Cachorro;0,0,0,0,0,0,0,0,0,0;0,0,0,0,5,0,0,0,0,0;0,5,5,0,5,0,0,5,0,0;5,0,0,5,0,5,0,0,0,0
+6;Colega sem Tichet;desafio_6.txt;Calote Anunciado?;0,0,0,0,0,0,0,0,0,0;0,0,5,0,5,0,0,0,0,0;0,0,0,5,0,0,0,0,0,0;0,0,0,5,0,5,0,0,0,0
+7;Biblioteca Cheia;desafio_7.txt;Sem Espaço para Aprender;0,0,0,0,0,0,0,0,0,0;0,0,0,0,5,0,5,0,0,0;0,5,0,0,0,5,5,0,0,0;0,5,5,0,5,0,0,5,0,0
+8;Reforma no RU;desafio_8.txt;Jejum Compulsório;0,0,0,0,0,0,0,0,0,0;5,0,0,0,5,0,0,0,0,0;0,5,5,0,5,0,0,0,0,0;0,5,0,0,0,5,0,5,0,0
+9;Vinagre Suspeito;desafio_9.txt;Proteína Extra;0,5,0,0,0,0,0,0,0,0;5,0,0,5,5,0,0,5,0,0;0,5,5,0,5,0,5,0,0,0;5,0,0,5,0,5,0,5,0,0
+10;Maratona de Programação;desafio_10.txt;Batismo de Fogo;0,0,0,0,0,0,0,0,0,0;5,0,5,0,5,0,5,0,0,0;5,0,0,5,5,0,0,5,0,0;0,5,0,5,0,5,0,5,0,0
+11;Briga no Grupo;desafio_11.txt;A Treta Vazou;0,0,0,0,0,0,0,0,0,0;5,0,0,5,5,0,0,5,0,0;5,0,5,0,0,5,5,0,0,0;5,0,0,5,5,0,5,0,0,0
+12;Vista no Dia da Prova;desafio_12.txt;O Veredito Final;0,0,0,0,0,0,0,0,0,0;5,0,5,0,5,0,5,0,0,0;5,0,0,5,0,5,5,0,0,0;0,5,0,5,0,5,0,5,0,0
+13;Ônibus Demorando;desafio_13.txt;Prisioneiro do Ponto;0,0,0,0,0,0,0,0,0,0;0,5,5,0,0,5,0,5,0,0;5,0,5,0,0,5,5,0,0,0;0,5,0,5,5,0,0,5,0,0
+14;Convite da Atlética;desafio_14.txt;Adeus, Tédio;0,0,0,0,0,0,0,0,0,0;5,0,5,0,5,0,0,5,0,0;5,0,5,0,5,0,0,5,0,0;5,0,0,5,0,5,5,0,0,0
+15;Bug Misterioso;desafio_15.txt;A Traição do Compilador;0,0,0,0,0,0,0,0,0,0;5,0,0,5,5,0,5,0,0,0;5,0,5,0,5,0,5,0,0,0;5,0,0,5,0,5,0,5,0,0
+16;Oficina de Linguagem Nova;desafio_16.txt;A pulada de cerca;0,0,0,0,0,0,0,0,0,0;5,0,0,5,5,0,5,0,0,0;5,0,5,0,5,0,5,0,0,0;5,0,0,5,5,0,5,0,0,0
+17;Fila do RU;desafio_17.txt;O Conselho dos Famintos;0,0,0,0,0,0,0,0,0,0;5,0,0,5,0,5,0,5,0,0;0,5,5,0,0,5,5,0,0,0;5,0,5,0,5,5,0,0,0,0

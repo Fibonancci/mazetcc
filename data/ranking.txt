@@ -1,0 +1,5 @@
+Arnoldo;210
+Lucas;145
+Jogador;140
+Laura;110
+Ageu;110

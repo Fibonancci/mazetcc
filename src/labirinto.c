@@ -300,6 +300,11 @@ int exibirLabirinto(ListaDesafios *listaDeTodosDesafios,Personagem *personagemAt
         if (mapa[linha][coluna] == saida) {
             saiu_do_labirinto = 1; // Marca que o labirinto foi concluído
 
+            linha = 1; // Posição inicial
+            coluna = 1;
+            pontos = 0; // Zera pontos do labirinto atual
+            gerar_mapa_aleatorio(); // Gera um NOVO labirinto
+
             // Incrementa o contador de labirintos zerados do personagem
             personagemAtual->labirintos_zerados++;
             limparTela();
@@ -312,10 +317,6 @@ int exibirLabirinto(ListaDesafios *listaDeTodosDesafios,Personagem *personagemAt
                 venceu_jogo = 1; // Marca que o jogador venceu o jogo
             } else {
                 // Se não se formou, reinicia a posição no labirinto e gera um novo mapa
-                linha = 1; // Posição inicial
-                coluna = 1;
-                pontos = 0; // Zera pontos do labirinto atual
-                gerar_mapa_aleatorio(); // Gera um NOVO labirinto
                 saiu_do_labirinto = 0; // Permite que o loop continue para o próximo labirinto
             }
         }

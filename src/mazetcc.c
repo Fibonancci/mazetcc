@@ -235,7 +235,7 @@ void exibirMenu(Ranking *rankingDoJogo, Personagem *personagemAtual,
                     } else if (personagemAtual->estado_atual ==1) {
                         limparTela();
                         exibirLogo();
-                        printf("\nEssa não, você foi jubilado! Iicie um novo game.\n");
+                        printf("\nEssa não, você foi jubilado! Inicie um novo game.\n");
                         aguardarVoltar(1, "Menu Principal");
                     } else {
                         exibirLabirinto(listaDeTodosDesafios,personagemAtual,saveCarregado);
@@ -261,7 +261,7 @@ void exibirMenu(Ranking *rankingDoJogo, Personagem *personagemAtual,
                     } else if (personagemAtual->estado_atual ==1) {
                         limparTela();
                         exibirLogo();
-                        printf("\nEssa não, você foi jubilado! Iicie um novo game.\n");
+                        printf("\nEssa não, você foi jubilado! Inicie um novo game.\n");
                         aguardarVoltar(1, "Menu Principal");
                     } else {
                         exibirLabirinto(listaDeTodosDesafios,personagemAtual,saveCarregado);
